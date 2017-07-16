@@ -9,13 +9,13 @@ module.exports= {
 
     return Axios.get(requestUrl).then(function(res){
       if(res.data.cod && res.data.message){
-        throw new Error(res.data.message);
+        throw new Error(res.data.cod);
       }else{
         return res.data.main.temp;
       }
 
     }, function(res){
-      throw new Error(res.data.message);
+      throw new Error(res.response.data.message);
     });
   }
 }
