@@ -1,6 +1,8 @@
+//$space-large:5px;
+
 .page-title{
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: $space-large;
+  margin-bottom: $space-large;
 }
 
 input[type=search]{
