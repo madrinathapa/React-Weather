@@ -9,13 +9,13 @@ var Examples = React.createClass({
         <p>Here's the list of few cities to try:</p>
         <ul>
           <li>
-            <Link to='/location=paris'>Paris</Link>
+            <Link to='/?location=paris'>Paris</Link>
           </li>
           <li>
-            <Link to='/location=london'>London</Link>
+            <Link to='/?location=london'>London</Link>
           </li>
           <li>
-            <Link to='/location=chicago'>Chicago</Link>
+            <Link to='/?location=chicago'>Chicago</Link>
           </li>
         </ul>
       </div>
